@@ -1,0 +1,1001 @@
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+                                                                                                Polices   
+    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    @font-face {
+        font-family: "NomPrenom";
+        src: url("police/exodusdemo-striped-webfont.woff") format("woff2"),
+            url("police/exodusdemo-striped-webfont.woff2") format("woff");
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "greatvibes-regular-webfont";
+        src: url("police/greatvibes-regular-webfont.woff") format("woff2"),
+            url("police/greatvibes-regular-webfont.woff2") format("woff");
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'montserratblack';
+        src: url('police/montserrat-black-webfont.woff2') format('woff2'),
+            url('police/montserrat-black-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'montserratblack_italic';
+        src: url('police/montserrat-blackitalic-webfont.woff2') format('woff2'),
+            url('police/montserrat-blackitalic-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'montserratbold';
+        src: url('police/montserrat-bold-webfont.woff2') format('woff2'),
+            url('police/montserrat-bold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'montserratbold_italic';
+        src: url('montserrat-bolditalic-webfont.woff2') format('woff2'),
+            url('montserrat-bolditalic-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'montserratextrabold';
+        src: url('police/montserrat-extrabold-webfont.woff2') format('woff2'),
+            url('police/montserrat-extrabold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'montserratextrabold_italic';
+        src: url('police/montserrat-extrabolditalic-webfont.woff2') format('woff2'),
+            url('police/montserrat-extrabolditalic-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'montserratextralight';
+        src: url('police/montserrat-extralight-webfont.woff2') format('woff2'),
+            url('police/montserrat-extralight-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'montserratextralight_italic';
+        src: url('police/montserrat-extralightitalic-webfont.woff2') format('woff2'),
+            url('police/montserrat-extralightitalic-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'montserratitalic';
+        src: url('police/montserrat-italic-webfont.woff2') format('woff2'),
+            url('police/montserrat-italic-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'montserratlight';
+        src: url('police/montserrat-light-webfont.woff2') format('woff2'),
+            url('police/montserrat-light-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'montserratlight_italic';
+        src: url('police/montserrat-lightitalic-webfont.woff2') format('woff2'),
+            url('police/montserrat-lightitalic-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+
+
+    @font-face {
+        font-family: 'montserratmedium';
+        src: url('police/montserrat-medium-webfont.woff2') format('woff2'),
+            url('police/montserrat-medium-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+                                                                                               Body    
+    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        color: #484848;
+        background-color: #f1f1f2;
+        /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+                                                                                                HEADER    
+    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    }
+
+    header {
+        
+        display: flex;
+        background-image: url(images/20210404_131159.jpg);
+        background-size: cover;
+        background-position: 50% 100%;
+        height: 45em;
+        overflow: hidden;
+
+
+
+    }
+
+    header > div {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto auto;
+    }
+
+    header > div > h1 {
+        font-family: 'NomPrenom';
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 2em;
+    }
+
+
+    header .nom:hover {
+        color: #1995AD;
+        transition: 500ms;
+    }
+
+
+    h1 > img {
+        position: relative;
+        top: 10px;
+    }
+
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1em 0;
+
+        background-color: rgba(255, 255, 255, .4);
+        list-style-type: none;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    nav {}
+
+    a:link,
+    a:visited,
+    a:hover > ul {
+        color: #484848;
+
+        text-decoration: none;
+    }
+
+    nav > ul > li > a > {
+        position: relative;
+        overflow: hidden;
+    }
+
+
+
+    nav > ul > li > a > .Competence {
+        display: none;
+    }
+
+    nav > ul > li > a:hover > .Competence {
+        display: inline;
+    }
+
+    nav > ul > li > a > .Home {
+        display: none;
+
+
+    }
+
+    nav > ul > li > a:hover > .Home {
+        display: inline;
+    }
+
+
+    nav > ul > li > a > .about-me {
+        display: none;
+
+    }
+
+    nav > ul > li > a:hover > .about-me {
+        display: inline;
+
+    }
+
+    nav > ul > li > a > .Missions {
+        display: none;
+
+
+    }
+
+    nav > ul > li > a:hover > .Missions {
+        display: inline;
+
+    }
+
+    nav > ul > li > a > .Skills {
+        display: none;
+
+
+    }
+
+    nav > ul > li > a:hover > .Skills {
+        display: inline;
+
+    }
+
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                    
+                                                                                                    section */
+
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    section {
+        margin: 1em 1.5em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                    
+                                                                                                    a propos */
+
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    .bloc-apropos {
+        position: relative;
+        float: left;
+
+
+    }
+
+    section > div > h1 {
+        margin-top: 2em;
+        font-variant: small-caps;
+        letter-spacing: 10px;
+        font-size: 36px;
+        color: #1995AD;
+        font-family: 'montserratmedium';
+
+    }
+
+    section > div > h1 > span {
+        padding: 0 0 6px 0;
+        border-bottom: 3px;
+        border-bottom-style: solid;
+        border-bottom-color: #3ec1d5;
+    }
+
+
+    .bloc-image-about {
+        position: relative;
+        float: right;
+    }
+
+    blockquote {
+        text-indent: 1em;
+        padding: auto auto;
+        word-spacing: 15px;
+        font-family: 'montserratlight_italic';
+
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                    
+                                                                                                    skills */
+
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    /*animation pour ma liste de skills */
+    .liste-skills > li {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .bar {
+        background: #353b48;
+        display: block;
+        height: 11px;
+        width: 35em;
+        border: 1px solid rgb(0, 0, 0, 0.3);
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: 0 0 10px #2187e7b7;
+    }
+
+    .bar span {
+        height: 11px;
+        float: left;
+        position: relative;
+        background: #2187e7;
+    }
+
+    .liste-skills > li > div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .liste-skills > li > div > img {
+        margin: auto 2em;
+    }
+
+    .liste-skills > li > div > div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .liste-skills > li > div:hover > div > .bar > .html {
+
+        width: 98%;
+        background-color: darkorange;
+        animation: html 3s;
+    }
+
+    .liste-skills > li > div:hover > div > .bar > .css {
+        width: 75%;
+
+        animation: css 3s;
+    }
+
+    .liste-skills > li > div:hover > div > .bar > .php {
+        width: 40%;
+        background-color: orchid;
+        animation: php 3s;
+    }
+
+    .liste-skills > li > div:hover > div > .bar > .javascript {
+        width: 30%;
+        background-color: yellow;
+        animation: javascript 3s;
+    }
+
+    .liste-skills > li > div:hover > div > .bar > .postgresql {
+        width: 50%;
+        animation: postgresql 3s;
+    }
+
+
+    @keyframes html {
+        0% {
+            width: 0%;
+        }
+
+        30% {
+            width: 25%;
+        }
+
+        60% {
+            width: 50%;
+        }
+
+        100% {
+            width: 98%;
+        }
+    }
+
+    @keyframes css {
+        0% {
+            width: 0%;
+        }
+
+        30% {
+            width: 25%;
+        }
+
+        60% {
+            width: 50%;
+        }
+
+        100% {
+            width: 75%;
+        }
+    }
+
+    @keyframes php {
+        0% {
+            width: 0%;
+        }
+
+        50% {
+            width: 20%;
+        }
+
+        100% {
+            width: 40%;
+        }
+    }
+
+    @keyframes javascript {
+        0% {
+            width: 0%;
+        }
+
+        50% {
+            width: 15%;
+        }
+
+        100% {
+            width: 30%;
+        }
+    }
+
+    @keyframes postgresql {
+        0% {
+            width: 0%;
+        }
+
+        30% {
+            width: 10%;
+        }
+
+        60% {
+            width: 30%;
+        }
+
+        100% {
+            width: 50%;
+        }
+    }
+
+    .bloc-image-skills {
+        margin: 3em 0;
+        position: relative;
+        top: 1.8em;
+    }
+
+    #moi-paris {
+        overflow: hidden;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        width: 350px;
+        height: 600px;
+    }
+
+    #moi-paris:hover {
+        box-shadow: 13px 25px 31px -2px rgba(0, 0, 0, 0.5);
+        position: relative;
+        bottom: 1em;
+        transform: scale(1.2);
+    }
+
+    .bloc-skills {
+        display: flex;
+        flex-grow: 2;
+        justify-content: space-around;
+    }
+
+    .bloc-skills > div {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex-grow: 2;
+        justify-content: space-around;
+    }
+
+    .liste-skills > h1 {
+        font-variant: small-caps;
+        font-family: 'montserratmedium';
+        letter-spacing: 10px;
+        font-size: 36px;
+        color: #1995AD;
+        margin-top: 2em;
+    }
+
+    .liste-skills > h1 > span {
+        padding: 0 0 6px 0;
+        border-bottom: 3px;
+        border-bottom-style: solid;
+        border-bottom-color: #3ec1d5;
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                    
+                                                                                                    missions */
+
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    .bloc-articles-mission > h1 {
+        font-variant: small-caps;
+        font-family: 'montserratmedium';
+        letter-spacing: 10px;
+        font-size: 36px;
+        color: #1995AD;
+        margin-top: 2em;
+
+    }
+
+    .bloc-articles-mission > h1 > span {
+        padding: 0 0 6px 0;
+        border-bottom: 3px;
+        border-bottom-style: solid;
+        border-bottom-color: #3ec1d5;
+    }
+
+    .bloc-articles-mission > div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .box-experiences-pro {
+        display: flex;
+        flex-direction: column;
+        height: 15em;
+        flex-basis: 43%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        margin: 1em 1.4%;
+        padding: 1em 1.8em 1em 0.5em;
+        background-color: #1995AD;
+        justify-content: center;
+        color: #f1f1f2;
+
+
+    }
+
+    #box-experiences-pro1:hover,
+    #box-experiences-pro2:hover,
+    #box-experiences-pro3:hover,
+    #box-experiences-pro4:hover,
+    #box-experiences-pro5:hover {
+        background-color: #BCBABE;
+        border-radius: 10px;
+        position: relative;
+        bottom: 1em;
+        box-shadow: 13px 25px 31px -2px rgba(0, 0, 0, 0.5);
+        transition: all 1.5s;
+    }
+
+    #box-experiences-pro1:hover > div > h3,
+    #box-experiences-pro2:hover > div > h3,
+    #box-experiences-pro3:hover > div > h3,
+    #box-experiences-pro4:hover > div > h3,
+    #box-experiences-pro5:hover > div > h3 {
+        color: #3ec1d5;
+        font-family: 'montserratextrabold';
+        font-size: 20px;
+        transition: 1.5s;
+    }
+
+    #box-experiences-pro1:hover > div > em,
+    #box-experiences-pro2:hover > div > em,
+    #box-experiences-pro3:hover > div > em,
+    #box-experiences-pro4:hover > div > em,
+    #box-experiences-pro5:hover > div > em {
+
+        font-family: 'montserratlight_italic';
+        transition: 1.5s;
+    }
+
+    .box-experiences-pro {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .box-experiences-pro > figure {
+        margin: auto 2em;
+    }
+
+    h4 {
+        font-family: 'montserratmedium';
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                    
+                                                                                                    contact */
+
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    .bloc-contact > div {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+
+
+    }
+
+    .bloc-contact > p {
+        font-variant: 'montserratextralight';
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin: auto auto;
+        text-align: center;
+        flex-grow: 1;
+        justify-content: space-around;
+    }
+
+    .contact > figcaption {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact > figcaption > h4 {
+        font-family: 'montserratbold';
+        font-size: 20px;
+
+    }
+
+    .contact > p {
+        font-family: 'montserratextralight';
+    }
+
+    #telephone {
+        border-right: 1px;
+        border-right-style: solid;
+        border-left: 1px;
+        border-left-style: solid;
+    }
+
+    .contact:hover {
+        border: 1px;
+        border-style: solid;
+        border-color: #f1f1f2;
+    }
+
+    #address:hover,
+    #telephone:hover,
+    #email:hover {
+        box-shadow: 13px 25px 31px -2px rgba(0, 0, 0, 0.5);
+        position: relative;
+        bottom: 5px;
+
+    }
+
+    .map-responsive {
+        margin: 6em 2em 6em 2em;
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                  
+                                                                                                    /* footer */
+
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #BCBABE;
+        height: 6em;
+    }
+
+    footer > nav {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px;
+        border-bottom-color: azure;
+        border-bottom-style: solid;
+        margin: 0 4em;
+        justify-content: flex-end;
+
+    }
+
+    footer > p {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: auto 2em;
+    }
+
+    .facebooklogo {
+        background-image: url(images/facebooklogo48noirblanc.png);
+        height: 48px;
+        width: 48px;
+        background-repeat: no-repeat;
+    }
+
+    .facebooklogo:hover {
+        background-image: url(images/facebooklogo48couleur.png);
+    }
+
+    .instalogo {
+        background-image: url(images/instalogonoirblanc.png);
+        height: 48px;
+        width: 48px;
+        background-repeat: no-repeat;
+    }
+
+    .instalogo:hover {
+        background-image: url(images/instalogocouleur.png);
+    }
+
+    .twitterlogo {
+        background-image: url(images/twitter48.png);
+        height: 48px;
+        width: 48px;
+        background-repeat: no-repeat;
+    }
+
+    .twitterlogo:hover {
+        background-image: url(images/twittercouleur.png);
+    }
+
+    li a:hover {
+        color: #1995AD;
+        transition: 500ms;
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                  
+                                                                                                    /* les media */
+
+    /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+    /*------------------------------------------------------------------- Media 1130px ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+    @media (max-width:1130px) {
+
+
+        /*-------------------------------------------------------------- skills-------------------------------------------------------------- */
+        .liste-skills > h1 > span {
+            border-bottom: none;
+        }
+
+        .bloc-skills > div {
+            justify-content: flex-start;
+            margin: 0 0;
+        }
+
+        .bloc-image-skills {
+            display: none;
+
+        }
+
+        .bloc-articles-mission > h1 > span {
+            border-bottom: none;
+        }
+
+        .box-experiences-pro > figure {}
+
+        .box-experiences-pro {
+            margin: 10px auto;
+            flex-basis: 100%;
+        }
+
+
+
+    }
+
+    /*------------------------------------------------------------------- Media 680px ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+    @media (max-width: 680px) {
+
+        /*------------------------------------------------------------------- apropos--------------------------------------------------------- */
+
+
+        .bloc-image-about {
+            display: none;
+        }
+
+
+        /*-------------------------------------------------------------- skills-------------------------------------------------------------- */
+        .liste-skills > h1 > span {
+            border-bottom: none;
+        }
+
+        .bloc-skills > div {
+            justify-content: flex-start;
+            margin: 0 0;
+        }
+
+        .bloc-image-skills {
+            display: none;
+
+        }
+
+        .bar {
+            height: 15px;
+            width: 25em;
+        }
+
+        .bar span {
+            height: 15px;
+        }
+
+        liste-skills > li {
+            margin: 10px 0;
+        }
+
+        .liste-skills > li > div > img {
+            height: 80px;
+            width: 80px;
+            margin: auto 1em;
+        }
+
+        /*------------------------------------------------------------------------missions---------------------------------------------------------*/
+        .bloc-articles-mission > h1 > span {
+            border-bottom: none;
+        }
+
+
+
+        .box-experiences-pro {
+            margin: 10px auto;
+            flex-basis: 100%;
+        }
+
+        /*-----------------------------------------------------------------------contact-----------------------------------------------------------*/
+
+        .bloc-contact > div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #telephone {
+            border-left: none;
+            border-right: none;
+        }
+    }
+
+
+    /*------------------------------------------------------------------- Media 480px ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+    @media (max-width: 480px) {
+        /*------------------------------------------------------------------- apropos--------------------------------------------------------- */
+
+
+        .bloc-image-about > figure {
+            display: none;
+        }
+
+        .bloc-apropos > h1 > span {
+            padding: 0 0 6px 0;
+            border-bottom: none;
+
+
+        }
+
+        /*-------------------------------------------------------------- skills-------------------------------------------------------------- */
+        .liste-skills > h1 > span {
+            border-bottom: none;
+        }
+
+        .bloc-skills > div {
+            justify-content: flex-start;
+            margin: 0 0;
+        }
+
+        .bloc-image-skills {
+            display: none;
+
+        }
+
+        .bar {
+            height: 5px;
+            width: 15em;
+        }
+
+        .bar span {
+            height: 5px;
+        }
+
+        liste-skills > li {
+            margin: 10px 0;
+        }
+
+        .liste-skills > li > div > img {
+            height: 48px;
+            width: 48px;
+            margin: auto 1em;
+        }
+
+        /*------------------------------------------------------------------------missions---------------------------------------------------------*/
+        .bloc-articles-mission > h1 > {
+            margin-top: 2em;
+        }
+
+        .bloc-articles-mission > h1 > span {
+            border-bottom: none;
+        }
+
+        .box-experiences-pro > figure {
+            display: none;
+        }
+
+        .box-experiences-pro {
+            margin: 10px auto;
+            flex-basis: 100%;
+        }
+
+        /*-----------------------------------------------------------------------contact-----------------------------------------------------------*/
+        .bloc-contact > h1 > span {
+            border-bottom: none;
+        }
+
+        .test {
+            flex-wrap: wrap;
+        }
+
+        #telephone {
+            border-left: none;
+            border-right: none;
+        }
+
+
+    }
